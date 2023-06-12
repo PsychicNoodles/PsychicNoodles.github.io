@@ -1,0 +1,29 @@
+<div id="youtube-embed" class="embed-video youtube"></div>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script>
+  var player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player("youtube-embed", {
+      videoId: "{{ include.id }}",
+      height: '100%',
+      width: '100%',
+      events: {
+        "onReady": () => {
+          document.querySelectorAll(".yt-timestamp").forEach((blockquote) => {
+            const parts = blockquote.textContent.trim().split(":");
+            const seconds = parts.map((p) => parseInt(p)).reduce((acc, val, ind) => {
+              const factor = parts.length - ind - 1;
+              const modifier = Math.pow(60, factor);
+              return acc + (val * modifier);
+            }, 0);
+            blockquote.onclick = () => {
+              player.seekTo(seconds);
+            };
+          });
+        }
+      }
+    });
+  }
+</script>
