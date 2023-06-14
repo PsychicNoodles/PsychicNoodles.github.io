@@ -34,6 +34,8 @@ The super brief summary of where we are and what's going on: the facility for mo
 
 Kokytos (or Cocytus) is one of the rivers surrounding the Greek underworld. In the Divine Comedy it is the lowest circle where souls of traitors are imprisoned. In Anabaseios, Kokytos is a living being, and as can be seen in battle it can consume or absorb collected souls to gain their abilities and personalities.
 
+The song for this floor (and the second floor) is titled "One Amongst the Weary." The meaning of that title will make more sense in the context of the fourth floor, but one possible meaning is that it refers to you amongst the souls of the dead/weary. You can find an [unofficial lyrics video here](https://www.youtube.com/watch?v=4K4IaMLcoqs).
+
 ## Mechanics
 
 Now onto the fight itself. We ended up following [the game8 guide](https://game8.jp/ff14/532345) as the guides on that site are usually fairly well vetted as well as where most players look to first. Before that, we referenced [this Nukemaru video guide](https://youtu.be/URo06JSGEgM), which is what the game8 guide ended up being based on. Feel free to read/watch these first to get an authentic learning experience!
